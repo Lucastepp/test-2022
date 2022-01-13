@@ -53,12 +53,25 @@ a {
 
 .logo {
 	margin: 0;
-	font-size: 2.45em;
-    font-weight: 900px;
+    padding: 0px 15px;
+	font-size: 3.45em;
+    font-weight: 1200px;
 }
+.logo a:hover {
+	color: #fbfdff;
+    background: linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(55, 66, 70) 50%) right;
+    background-size: 200%;
+    opacity: 0.6;
+    transition: 2.9s;
+}
+
+
+
+
 
 .main-nav {
 	margin-top: 5px;
+    font-weight: 700;
 
 }
 .logo a,
@@ -75,7 +88,11 @@ a {
 }
 
 .main-nav a:hover {
-	color: #718daa;
+	color: #ffffff;
+    background: linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(55, 66, 70) 50%) right;
+    background-size: 200%;
+    transition: 1.9s;
+    opacity: 0.4;
 }
 
 
@@ -103,11 +120,7 @@ a {
 	.header {
 		flex-direction: column;
 		align-items: center;
-    	.header{
-		width: 80%;
-		margin: 0 auto;
-		max-width: 1150px;
-	}
+    	
 	}
 
 }
